@@ -1,0 +1,19 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "shift+alt+cmd+u",
+		"command": "insert-unicode.insertText"
+	},
+	{
+		"key": "alt+cmd+u",
+		"command": "insert-unicode.insertFavoriteText"
+	},
+	{
+		"key": "ctrl+shift+alt+e",
+		"command": "calculator.evaluate"
+	},
+	{
+		"key": "ctrl+shift+alt+c",
+		"command": "calculator.replace"
+	}
+]

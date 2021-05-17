@@ -1,0 +1,27 @@
+[user]
+	name = Rogier Steehouder
+	email = rogiersteehouder@gmail.com
+[alias]
+	glog = log --graph
+	incoming = !git fetch && git log ..FETCH_HEAD
+	outgoing = !git fetch && git log FETCH_HEAD..
+[color]
+	ui = auto
+[core]
+	ignoreCase = true
+	editor = code -w
+	hooksPath = ~/.config/git/hooks
+[pager]
+	branch = false
+	log = false
+	shortlog = false
+[log]
+	abbrevCommit = 10
+	date = format-local:%F %T
+[format]
+	pretty = rogier
+[pretty]
+	rogier = tformat:%C(auto)%h%d %ad %s
+	rogierV = tformat:%C(auto)%h%d %an %ad %s
+[init]
+	defaultBranch = main

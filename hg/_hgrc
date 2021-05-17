@@ -1,0 +1,14 @@
+[ui]
+username = Rogier Steehouder
+style = compact
+ssh = ssh -C
+paginate = never
+
+[defaults]
+log = --limit 5 --style /Users/rogier/.config/hg/hg-log-style
+
+[alias]
+glog = log --limit 5 --style /Users/rogier/.config/hg/hg-log-style -G
+
+[extensions]
+hginfo = /Users/rogier/.config/hg/ext/hginfo.py

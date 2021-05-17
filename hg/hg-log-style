@@ -1,0 +1,16 @@
+header_quiet = ''
+changeset_quiet = '\033[0;33m{rev}\033[0m: {desc|firstline|strip}\n'
+
+header = ''
+changeset = '\033[0;33m{rev}\033[0m:{node|short} \033[0;37m{date|shortdate}\033[0m {author}\n{desc|firstline|strip}\n'
+
+header_verbose = '----------------------------------------\n'
+changeset_verbose = '\033[0;33m{rev}\033[0m:{node|short} \033[0;37m{date|shortdate}\033[0m {author}{branches}\n{desc}\n\n{file_adds}{file_mods}{file_dels}----------------------------------------\n'
+
+start_branches = '\n'
+branch = '\033[0;31m{branch}\033[0m, '
+last_branch = '\033[0;31m{branch}\033[0m\n'
+
+file_add = '\033[0;32mA\033[0m {file_add}\n'
+file_mod = '\033[0;36mM\033[0m {file_mod}\n'
+file_del = '\033[0;31mD\033[0m {file_del}\n'

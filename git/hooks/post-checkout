@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+# encoding: UTF-8
+
+"""Git post-checkout script::
++
+* Create symlink in git-repos directory
+"""
+
+__author__  = 'Rogier Steehouder'
+__date__    = '2019-11-30'
+__version__ = '0.1'
+
+import sys
+
+from pathlib import Path
+
+
+def main(args=None):
+    if args is None:
+        args = sys.argv[1:]
+
+    print('== Post-checkout script.')
+
+    # New repo
+    if args[0].replace('0', '') == '':
+
+        # create symlink in git-repos directory
+        git_repos = Path('~/Documents/git-repos').expanduser()
+        if git_repos.is_dir():
+            repo = Path('.').resolve()
+            link = git_repos / repo.name
+            i = 0
+            while link.exists():
+                i += 1
+                link = git_repos / '{}_{}'.format(repo.name, i)
+            print('-- linking {} to {}'.format(link, repo))
+            link.symlink_to(repo, target_is_directory=True)
+
+    return 0
+
+if __name__ == '__main__':
+    sys.exit(main())

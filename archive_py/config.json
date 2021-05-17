@@ -1,0 +1,19 @@
+{
+	"~/downloads": {
+		"script": { "verbose": 3 },
+		"target base": [ "archief" ],
+		"target template": "{datetime:%Y-%m-%d}",
+		"skip directories": false,
+		"keep empty": false,
+		"keep duplicates": false,
+		"overwrite": false,
+		"rename": "numeric",
+		"separator": "-",
+		"max number": 99,
+		"exceptions": [
+			"[._-]*",
+			"*.part",
+			"*.crdownload"
+		]
+	}
+}

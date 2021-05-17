@@ -1,0 +1,244 @@
+{
+	"[asciidoc]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.wordWrap": "off"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[git-commit]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": true,
+		"editor.rulers": [
+			50,
+			80,
+			120
+		],
+		"editor.tabSize": 4
+	},
+	"[html]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[markdown]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.wordWrap": "off"
+	},
+	"[peoplecode]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 3,
+		"editor.wordSeparators": "`~!@#$^*()-=+[{]}\\|;:'\",.<>/?"
+	},
+	"[peoplecode_trace]": {
+		"editor.wordSeparators": "`~!@#$^*()-=+[{]}\\|;:'\",.<>/?"
+	},
+	"[python]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": true,
+		"editor.rulers": [
+			79,
+			120
+		],
+		"editor.tabSize": 4
+	},
+	"[scss]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[sqr]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+	"[xml]": {
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.wordWrap": "off"
+	},
+	"asciidoc.preview.attributes": {
+		"!linkcss": "",
+		"env-vscode": "",
+		"skip-front-matter": "",
+		"toc": "auto"
+	},
+	"asciidoc.preview.scrollEditorWithPreview": false,
+	"asciidoc.preview.scrollPreviewWithEditor": false,
+	"asciidoc.preview.useEditorStyle": false,
+	"asciidoc.use_asciidoctor_js": false,
+	"asciidoc.use_asciidoctorpdf": true,
+	"breadcrumbs.icons": false,
+	"calculator.disable_widget": true,
+	"debug.console.wordWrap": false,
+	"diffEditor.renderSideBySide": true,
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.cursorSurroundingLines": 3,
+	"editor.dragAndDrop": false,
+	"editor.emptySelectionClipboard": false,
+	"editor.fontFamily": "Inconsolata, Menlo, Monaco, Consolas, 'Courier New', monospace",
+	"editor.fontSize": 16,
+	"editor.insertSpaces": false,
+	"editor.links": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.showSlider": "always",
+	"editor.renderWhitespace": "boundary",
+	"editor.rulers": [
+		80,
+		120
+	],
+	"editor.tabSize": 4,
+	"editor.wordWrap": "off",
+	"explorer.autoReveal": "focusNoScroll",
+	"extensions.autoUpdate": false,
+	"extensions.showRecommendationsOnlyOnDemand": true,
+	"git.untrackedChanges": "separate",
+	"html.autoClosingTags": false,
+	"html.format.enable": false,
+	"insert-unicode.favorites": {
+		"directories": {
+			"Arrows": {
+				"items": [
+					[
+						8592
+					],
+					[
+						8593
+					],
+					[
+						8594
+					],
+					[
+						8595
+					],
+					[
+						8656
+					],
+					[
+						8657
+					],
+					[
+						8658
+					],
+					[
+						8659
+					],
+					[
+						10549
+					]
+				]
+			},
+			"Symbols": {
+				"items": [
+					[
+						9733
+					],
+					[
+						9734
+					],
+					[
+						9744
+					],
+					[
+						9745
+					],
+					[
+						9746
+					],
+					[
+						10003
+					],
+					[
+						10004
+					],
+					[
+						10007
+					],
+					[
+						10008
+					]
+				]
+			}
+		},
+		"items": [
+			[
+				160
+			],
+			[
+				8211
+			],
+			[
+				8212
+			]
+		]
+	},
+	"json.schemaDownload.enable": false,
+	"print.printAndClose": false,
+	"print.renderMarkdown": false,
+	"python.dataScience.enabled": false,
+	"python.defaultInterpreterPath": "python3",
+	"python.experiments.enabled": false,
+	"python.pythonPath": "/usr/local/bin/python3",
+	"python.terminal.activateEnvironment": false,
+	"rest-client.enableTelemetry": false,
+	"rest-client.environmentVariables": {
+		"Generic user": {
+			"password": "...",
+			"username": "rogier"
+		},
+		"TWACC": {
+			"password": "...)",
+			"resturl": "",
+			"soapurl": "https://cstwacc.rocvantwente.mcx.nl/PSIGW/PeopleSoftServiceListeningConnector",
+			"username": "PSROG"
+		},
+		"TWONT": {
+			"password": "...)",
+			"resturl": "",
+			"soapurl": "https://cstwont.rocvantwente.mcx.nl/PSIGW/PeopleSoftServiceListeningConnector",
+			"username": "PSROG"
+		},
+		"TWTST": {
+			"password": "...)",
+			"resturl": "",
+			"soapurl": "https://cstwtst.rocvantwente.mcx.nl/PSIGW/PeopleSoftServiceListeningConnector",
+			"username": "PSROG"
+		}
+	},
+	"rest-client.previewResponsePanelTakeFocus": false,
+	"rest-client.requestNameAsResponseTabTitle": true,
+	"rest-client.timeoutinmilliseconds": 10000,
+	"sass.format.deleteEmptyRows": false,
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"terminal.integrated.cursorStyle": "line",
+	"todo.archive.remove.emptyProjects": false,
+	"todo.archive.sortByDate": true,
+	"todo.embedded.view.expanded": false,
+	"todo.file.view.expanded": false,
+	"todo.formatting.enabled": false,
+	"todo.timekeeping.created.format": "YYYY-MM-DD HH:mm",
+	"todo.timekeeping.finished.format": "YYYY-MM-DD HH:mm",
+	"todo.timekeeping.started.format": "YYYY-MM-DD HH:mm",
+	"update.mode": "manual",
+	"window.newWindowDimensions": "inherit",
+	"window.openWithoutArgumentsInNewWindow": "off",
+	"window.title": "${dirty} ${activeEditorShort}${separator}${rootName}",
+	"window.zoomLevel": 0,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.enableExperiments": false,
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"workbench.startupEditor": "newUntitledFile"
+}

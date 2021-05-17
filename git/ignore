@@ -1,0 +1,17 @@
+## Backup
+*.bak
+*.ori
+*.orig
+*.tmp
+
+## macOS
+.DS_Store
+._*
+
+## Windows
+Thumbs.db
+[Dd]esktop.ini
+
+## Python
+__pycache__/
+*.py[cod]
