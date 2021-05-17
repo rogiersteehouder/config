@@ -1,0 +1,10 @@
+autodetach on
+startup_message off
+defscrollback 1000
+
+caption always "%{= wk}%-w%{= yk}%50> %n %t %{= wk}%+w%<"
+hardstatus alwayslastline "%{=b kr}[ %H ] %{=b ky}[ %S ] %{=b kW}[ %t ] %-=%{= kg} %c %Y-%m-%d"
+
+bind s split
+bind T title
+bind S colon "sessionname "

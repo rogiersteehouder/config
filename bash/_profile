@@ -1,0 +1,10 @@
+export PATH=/usr/local/bin:/usr/bin:/bin:~/bin:.
+export PS1="[\$?|\j] \u: \w > "
+export SUDO_PROMPT='[sudo] password for %u on %h: '
+export PAGER=less
+export EDITOR=vim
+
+export IPYTHONDIR=${XDG_DATA_HOME:-$HOME/.local/share}/ipython
+export JUPYTER_CONFIG_DIR=${XDG_CONFIG_HOME:-$HOME/.config}/jupyter
+
+[ -n "$BASH_VERSION" -a -r ~/.bashrc ] && . ~/.bashrc

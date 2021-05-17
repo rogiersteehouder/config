@@ -1,0 +1,32 @@
+{
+	"session_name": "main",
+	"windows": [
+		{
+			"window_name": "main",
+			"layout": "c217,80x72,0,0[80x50,0,0,0,80x21,0,51,1]",
+			"focus": true,
+			"options": {
+				"automatic-rename": false
+			},
+			"panes": [
+				{
+					"focus": "true",
+					"shell_command": "fancy_prompt"
+				},{}
+			]
+		},
+		{
+			"window_name": "pwmgr",
+			"layout": "b45f,80x72,0,0,2",
+			"options": {
+				"automatic-rename": false
+			},
+			"panes": [
+				{
+					"focus": true,
+					"start_directory": "~/bin/pwmgr/"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,97 @@
+"=====
+" Vimrc
+"=====
+set nocompatible
+set modelines=1
+
+" inspired by:
+" http://spf13.com/post/perfect-vimrc-vim-config-file
+" https://dougblack.io/words/a-good-vimrc.html
+
+"-----
+" Colors
+"-----
+if has('syntax')
+	set background=dark
+	colorscheme pablo
+	syntax enable
+endif
+
+"-----
+" Spaces and tabs
+"-----
+set tabstop=4
+set softtabstop=4
+set noexpandtab
+set shiftwidth=4
+set autoindent
+
+"-----
+" UI
+"-----
+set number
+set showmode
+set showcmd
+"set cursorline
+
+if has('filetype')
+	filetype indent on
+endif
+
+set nowrap
+set whichwrap=b,s,h,l,<,>,[,]
+
+set wildmenu
+set lazyredraw
+set showmatch
+set scrolljump=5
+set scrolloff=3
+
+set nospell
+set tabpagemax=15
+
+set backspace=indent,eol,start
+
+set list
+"set listchars=tab:»·,trail:·,eol:¶,precedes:<,extends:>,nbsp:·
+set listchars=tab:»·,trail:·,precedes:<,extends:>,nbsp:·
+
+if has('cmdline_info')
+	set ruler
+	set rulerformat=%30(%=:b%n%y%m%r%w\ %l,%c%V\ %P%)
+endif
+
+if has('statusline')
+	set laststatus=2
+	set statusline=%<%f\ %w%h%m%r\ [%{&ff}/%Y]\ [%{getcwd()}]%=%-14.(%l,%c%V%)\ %p%%
+endif
+
+"-----
+" Search
+"-----
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+
+"-----
+" Folding
+"-----
+if has('foldenable')
+	set foldenable
+	set foldlevelstart=10
+	set foldnestmax=10
+	set foldmethod=indent
+endif
+
+"-----
+" misc
+"-----
+set viminfofile=~/.local/share/vim/viminfo
+"set viewoptions=folds,options,cursor,unix,slash
+"set virtualedit=onemore
+"set history=1000
+"set wildmode=menu,longest,full
+"set list
+"set listchars=tab:>,trail:.,extends:\#,nbsp:.
+
