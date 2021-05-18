@@ -13,3 +13,16 @@ run on multiple systems.
 - python: list of packages for pip.
 - sqlite3: symlink ~/.sqliterc
 - vscodium: settings and snippets.
+
+## Unix
+
+Configuration files for common applications on unix-like systems.
+
+- bash: symlink .bashrc, symlink .profile (unmaintained, because I switched to fish).
+- fish: config, variables, functions.
+- nvim: just reads .vimrc.
+- screen: symlink .screenrc (unmaintained, because I switched to tmux).
+- tmux: config
+- tmuxp: a "main" setup with two windows and a split pane
+- vim: symlink .vimrc.
+- _inputrc: symlink .inputrc
