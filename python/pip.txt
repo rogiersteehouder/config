@@ -11,10 +11,13 @@ libtmux
 lxml
 Markdown
 numpy
+passlib
 Pillow
 pip
 pylint
 pytz
+pywin32
+pywinpty
 ruamel.yaml
 setuptools
 tmuxp

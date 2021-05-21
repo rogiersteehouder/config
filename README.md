@@ -26,3 +26,12 @@ Configuration files for common applications on unix-like systems.
 - tmuxp: a "main" setup with two windows and a split pane
 - vim: symlink .vimrc.
 - _inputrc: symlink .inputrc
+
+## Windows
+
+Configuration files for common applications on windows systems.
+
+- cmd: copy init.cmd to your user directory
+
+  init.reg adds %USERPROFILE%/init.cmd to the command prompt as auto-run
+

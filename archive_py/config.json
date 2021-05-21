@@ -1,5 +1,5 @@
 {
-	"~/downloads": {
+	"C:\\Users\\rogier\\Downloads": {
 		"script": { "verbose": 3 },
 		"target base": [ "archief" ],
 		"target template": "{datetime:%Y-%m-%d}",

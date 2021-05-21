@@ -46,10 +46,6 @@
 	"[python]": {
 		"editor.detectIndentation": false,
 		"editor.insertSpaces": true,
-		"editor.rulers": [
-			79,
-			120
-		],
 		"editor.tabSize": 4
 	},
 	"[scss]": {
@@ -104,9 +100,11 @@
 	"explorer.autoReveal": "focusNoScroll",
 	"extensions.autoUpdate": false,
 	"extensions.showRecommendationsOnlyOnDemand": true,
+    "files.defaultLanguage": "${activeEditorLanguage}",
 	"git.untrackedChanges": "separate",
 	"html.autoClosingTags": false,
 	"html.format.enable": false,
+    "html.mirrorCursorOnMatchingTag": true,
 	"insert-unicode.favorites": {
 		"directories": {
 			"Arrows": {
@@ -191,6 +189,7 @@
 	"python.defaultInterpreterPath": "python3",
 	"python.experiments.enabled": false,
 	"python.pythonPath": "/usr/local/bin/python3",
+    "python.showStartPage": false,
 	"python.terminal.activateEnvironment": false,
 	"rest-client.enableTelemetry": false,
 	"rest-client.environmentVariables": {
@@ -199,24 +198,25 @@
 			"username": "rogier"
 		},
 		"TWACC": {
-			"password": "...)",
+			"password": "...",
 			"resturl": "",
 			"soapurl": "https://cstwacc.rocvantwente.mcx.nl/PSIGW/PeopleSoftServiceListeningConnector",
 			"username": "PSROG"
 		},
 		"TWONT": {
-			"password": "...)",
+			"password": "...",
 			"resturl": "",
 			"soapurl": "https://cstwont.rocvantwente.mcx.nl/PSIGW/PeopleSoftServiceListeningConnector",
 			"username": "PSROG"
 		},
 		"TWTST": {
-			"password": "...)",
+			"password": "...",
 			"resturl": "",
 			"soapurl": "https://cstwtst.rocvantwente.mcx.nl/PSIGW/PeopleSoftServiceListeningConnector",
 			"username": "PSROG"
 		}
 	},
+    "rest-client.logLevel": "verbose",
 	"rest-client.previewResponsePanelTakeFocus": false,
 	"rest-client.requestNameAsResponseTabTitle": true,
 	"rest-client.timeoutinmilliseconds": 10000,
@@ -224,14 +224,17 @@
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
 	"terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.shell.windows": "cmd.exe",
 	"todo.archive.remove.emptyProjects": false,
 	"todo.archive.sortByDate": true,
+    "todo.embedded.provider": "rg",
 	"todo.embedded.view.expanded": false,
 	"todo.file.view.expanded": false,
 	"todo.formatting.enabled": false,
 	"todo.timekeeping.created.format": "YYYY-MM-DD HH:mm",
 	"todo.timekeeping.finished.format": "YYYY-MM-DD HH:mm",
 	"todo.timekeeping.started.format": "YYYY-MM-DD HH:mm",
+    "update.enableWindowsBackgroundUpdates": false,
 	"update.mode": "manual",
 	"window.newWindowDimensions": "inherit",
 	"window.openWithoutArgumentsInNewWindow": "off",
@@ -240,5 +243,6 @@
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.enableExperiments": false,
 	"workbench.settings.enableNaturalLanguageSearch": false,
-	"workbench.startupEditor": "newUntitledFile"
+	"workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false
 }

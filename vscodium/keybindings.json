@@ -1,11 +1,11 @@
 // Place your key bindings in this file to override the defaults
 [
 	{
-		"key": "shift+alt+cmd+u",
+		"key": "ctrl+shift+alt+u",
 		"command": "insert-unicode.insertText"
 	},
 	{
-		"key": "alt+cmd+u",
+		"key": "ctrl+alt+u",
 		"command": "insert-unicode.insertFavoriteText"
 	},
 	{
